@@ -39,8 +39,8 @@ button.addEventListener('click', () => {
         paragraph.style.color = 'rgb(8, 176, 206)';
         btn.style.backgroundColor = 'rgb(223, 231, 231)';
         table.style.backgroundColor = 'rgba(245, 242, 66, 0.959)';
-        h2.style.color = 'black';
-        h3.style.color = 'black';
+        h2.style.color = 'rgb(32, 21, 43)';
+        h3.style.color = 'rgb(32, 21, 43)';
         h6.style.color = 'rgb(32, 21, 43)';
     }
     isWhite = !isWhite;
