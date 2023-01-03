@@ -3,6 +3,13 @@ console.log('Hello World')
 console.log("I'm Fucking Happy Right now. I just run my first js code!")
 
 
+const click = document.querySelector('.click');
+
+click.addEventListener('click', () => {
+    alert('First Day of Learning JavaScript');
+});
+
+
 const button = document.querySelector('#myButton');
 const div = document.querySelector('.circle');
 const whiteElement = document.querySelector('.white');
