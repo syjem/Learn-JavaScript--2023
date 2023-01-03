@@ -29,7 +29,6 @@ body {
     display: block;
     margin: 70px auto;
     text-align: center;
-    background-color: rgb(47, 31, 63);
     padding: 10px;
     padding-top: 40px;
 }
@@ -37,7 +36,7 @@ body {
 .avatar {
     padding-top: 4px;
     display: block;
-    background-color: rgb(214, 204, 204);
+    background-color: rgb(47, 31, 63);
     margin: 5px auto;
     border-radius: 14px;
     max-width: 63%;
@@ -66,12 +65,11 @@ ul li {
 
 .info-content .title {
     color: rgb(8, 176, 206);
-    background: hsl(240, 1%, 17%);
-    font-size: 1vw;
+    background: rgb(47, 31, 63);
+    font-size: 15px;
     font-weight: 300;
-    width: max-content;
-    margin: 10px auto;
-    padding: 3px 12px;
+    width: 100%;
+    padding: 5px;
     border-radius: 8px;
 }
 
