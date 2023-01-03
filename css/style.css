@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-}
+  }
 
 body {
     padding: 0;
@@ -10,7 +10,99 @@ body {
     background-color: rgb(61, 68, 66);
 }
 
-/* Day 1 */
+/* Profile Box */
+
+.profile {
+    display: block;
+    width: 50%;
+    min-width: 400px;
+    border-radius: 14px;
+    margin: 70px auto;
+    text-align: center;
+    color: bisque;
+    background-color: rgb(32, 21, 43);
+    padding: 0;
+}
+
+.profile-info {
+    width: 35%;
+    display: block;
+    margin: 70px auto;
+    text-align: center;
+    background-color: rgb(47, 31, 63);
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.avatar {
+    padding-top: 4px;
+    display: block;
+    background-color: rgb(214, 204, 204);
+    margin: 5px auto;
+    border-radius: 14px;
+    max-width: 63%;
+    min-width: 60%;
+    height: auto;
+}
+
+.me {
+    border-radius: 14px;
+    max-width: 100%;
+    height: auto;
+    min-width: 55%;
+}
+
+ul li { 
+    list-style-type: none; 
+}
+
+.info-content .name {
+    color: hsl(0, 0%, 98%);
+    font-size: 2vw;
+    font-weight: 500;
+    letter-spacing: -0.25px;
+    margin-bottom: 10px;
+}
+
+.info-content .title {
+    color: rgb(8, 176, 206);
+    background: hsl(240, 1%, 17%);
+    font-size: 1vw;
+    font-weight: 300;
+    width: max-content;
+    margin: 10px auto;
+    padding: 3px 12px;
+    border-radius: 8px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    width: max-content;
+    margin: 10px auto;
+}
+
+.social-item .social-link {
+    color: hsla(0, 100%, 96%, 0.7);
+    font-size: 18px;
+}
+
+.social-item .social-link:hover { 
+    color: hsl(0, 0%, 100%); 
+}
+
+.ionic {
+    color: rgb(242, 179, 184);
+}
+
+
+
+
+/* Day 1 Box 2*/
 
 .table {
     display: block;
