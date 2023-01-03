@@ -11,6 +11,7 @@ const btn = document.querySelector('#myButton');
 const table = document.querySelector('.table-2');
 const h2 = document.querySelector('.H2');
 const h3 = document.querySelector('h3');
+const h6 = document.querySelector('.h6');
 let isWhite = false;
 
 button.addEventListener('click', () => {
@@ -22,6 +23,7 @@ button.addEventListener('click', () => {
         table.style.backgroundColor = 'rgba(122, 122, 117, 0.959)';
         h2.style.color = 'rgb(223, 231, 231)';
         h3.style.color = 'rgb(223, 231, 231)';
+        h6.style.color = 'bisque';
     }
     else {
         div.style.backgroundColor = 'white';
@@ -31,6 +33,7 @@ button.addEventListener('click', () => {
         table.style.backgroundColor = 'rgba(245, 242, 66, 0.959)';
         h2.style.color = 'black';
         h3.style.color = 'black';
+        h6.style.color = 'rgb(32, 21, 43)';
     }
     isWhite = !isWhite;
 });
