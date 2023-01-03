@@ -191,10 +191,10 @@ h2 {
 
 .white h6 {
     float: left;
-    padding-top: 102px;
+    padding-top: 120px;
     margin-left: 5px;
-    font-size: 14px;
-    color: bisque;
+    font-size: 1.5vw;
+    color: rgba(122, 122, 117, 0.959);
 }
 
 /* Switch */

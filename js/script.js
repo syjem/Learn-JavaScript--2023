@@ -31,7 +31,7 @@ button.addEventListener('click', () => {
         table.style.backgroundColor = 'rgba(122, 122, 117, 0.959)';
         h2.style.color = 'rgb(223, 231, 231)';
         h3.style.color = 'rgb(223, 231, 231)';
-        h6.style.color = 'bisque';
+        h6.style.color = 'rgba(122, 122, 117, 0.959)';
         hover.style.backgroundColor = '';
     }
     else {
