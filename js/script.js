@@ -12,6 +12,7 @@ const table = document.querySelector('.table-2');
 const h2 = document.querySelector('.H2');
 const h3 = document.querySelector('h3');
 const h6 = document.querySelector('.h6');
+const hover = document.querySelector('#myButton'); 
 let isWhite = false;
 
 button.addEventListener('click', () => {
@@ -24,6 +25,7 @@ button.addEventListener('click', () => {
         h2.style.color = 'rgb(223, 231, 231)';
         h3.style.color = 'rgb(223, 231, 231)';
         h6.style.color = 'bisque';
+        hover.style.backgroundColor = '';
     }
     else {
         div.style.backgroundColor = 'white';

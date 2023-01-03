@@ -48,23 +48,6 @@ h2 {
     background-color: rgb(10, 170, 90);
 }
 
-button::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: rgb(232, 157, 65);
-    position: absolute;
-    width: 0%;
-    transition: all ease-in-out 100ms;
-    margin: 10px auto;
-    top: 300px;
-    left: 513px;
-}
-
-.table button:hover::before {
-    width: 5%;
-}
-
 /* Day - 02 */
 
 .table-2 {
@@ -112,7 +95,7 @@ button::before {
 }
 
 .table-2 h2 {
-    font-size: 5vw;
+    font-size: 3vw;
     margin: 150px 0 10px 0;
 }
 
@@ -149,6 +132,3 @@ button::before {
     background-color: rgb(8, 176, 206);
 }
 
-.moon {
-    color: red;
-}
