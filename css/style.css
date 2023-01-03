@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.table {
+    display: block;
+    width: 50%;
+    border-radius: 14px;
+    margin: 70px auto;
+    text-align: center;
+    color: bisque;
+    background-color: rgb(32, 21, 43);
+}
+
+h1,
+h2 {
+    padding: 10px;
+    margin: 5px auto;
+}
+
+button {
+    padding: 20px;
+    color: rgb(230, 209, 235);
+    background-color: rgb(67, 182, 88);
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+    border: none;
+    border-radius: 14px;
+}
+
+button:hover {
+    color: rgb(34, 20, 20);
+    background-color: rgb(10, 170, 90);
+}
+
+button::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: rgb(232, 157, 65);
+    position: absolute;
+    width: 0%;
+    transition: all ease-in-out 100ms;
+    margin: 10px auto;
+    top: 300px;
+    left: 513px;
+}
+
+button:hover::before {
+    width: 5%;
+}
