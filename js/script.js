@@ -32,13 +32,12 @@ button.addEventListener('click', () => {
         h2.style.color = 'rgb(223, 231, 231)';
         h3.style.color = 'rgb(223, 231, 231)';
         h6.style.color = 'rgba(122, 122, 117, 0.959)';
-        hover.style.backgroundColor = '';
     }
     else {
         div.style.backgroundColor = 'white';
         whiteElement.style.backgroundColor = 'white';
         paragraph.style.color = 'rgb(8, 176, 206)';
-        btn.style.backgroundColor = 'rgba(245, 242, 66, 0.959)';
+        btn.style.backgroundColor = 'rgb(223, 231, 231)';
         table.style.backgroundColor = 'rgba(245, 242, 66, 0.959)';
         h2.style.color = 'black';
         h3.style.color = 'black';
