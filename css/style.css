@@ -107,13 +107,21 @@ button::before {
 }
 
 .table-2 h3 {
-    font-size: 3vw;
+    font-size: 2vw;
     letter-spacing: 15px;
 }
 
 .table-2 h2 {
     font-size: 5vw;
     margin: 150px 0 10px 0;
+}
+
+.white h6 {
+    float: left;
+    padding-top: 102px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: bisque;
 }
 
 /* Switch */
@@ -132,9 +140,13 @@ button::before {
 }
 
 #myButton {
-    background-color: rgb(8, 176, 206);
+    background-color: rgb(223, 231, 231);
     border-radius: 14px;
     cursor: pointer;
+}
+
+#myButton:hover {
+    background-color: rgb(8, 176, 206);
 }
 
 .moon {
