@@ -3,11 +3,31 @@ console.log('Hello World')
 console.log("I'm Fucking Happy Right now. I just run my first js code!")
 
 
-const click = document.querySelector('.click');
+document.addEventListener("DOMContentLoaded", function(event) {
+    const htmlBody = document.querySelector("body");
+    const button = document.getElementById("btn");
+    
+    const randomFunction = function() {
+      const colors = ["#FFB84C", "#F16767", "#A459D1", "#EB455F", "#B4E4FF", "#F0A04B", "#EA8FEA"];   
+      
+      const randomIndex = Math.floor(Math.random() * colors.length); 
+    
+      const randomColor = colors[randomIndex];
+    
+      htmlBody.style.backgroundColor = randomColor;
+      button.style.backgroundColor = randomColor;
+    
+      console.log("The user clicked and set the color to " + randomColor);
+    }
+    
+    button.onclick = randomFunction;
+  });
 
-click.addEventListener('click', () => {
-    alert('First Day of Learning JavaScript');
-});
+// const click = document.querySelector('.click');
+
+// click.addEventListener('click', () => {
+//     alert('First Day of Learning JavaScript');
+// });
 
 
 const button = document.querySelector('#myButton');
@@ -45,3 +65,5 @@ button.addEventListener('click', () => {
     }
     isWhite = !isWhite;
 });
+
+
