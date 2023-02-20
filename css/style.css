@@ -98,6 +98,13 @@ ul li {
 }
 
 
+#btn {
+    cursor: pointer;
+    border: 1px solid navy;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 
 
 /* Day 1 Box 2*/
